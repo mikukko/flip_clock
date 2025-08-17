@@ -94,11 +94,11 @@ export default {
     const data = reactive({
       setRef: null,
       // clock content
-      num_h: '你',
-      num_m: '好',
-      num_s: '!',
+      num_h: '',
+      num_m: '',
+      num_s: '',
       // setting
-      hourFormat: 0, // 12h 24h 024h
+      hourFormat: 2, // 12h 24h 024h
       scale: 100,
       brightness: 100,
       showBg: true,
